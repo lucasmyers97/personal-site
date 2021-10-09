@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://unpkg.com/mathjs@8.1.0/lib/browser/math.js"></script>
+  </head>
+  
+  <body>
+    <div id="display">Math has not happened</div>
+
+    <script>
+      let x = 3;
+      let y = 2;
+      let z = math.add(x, y);
+
+      let display = document.getElementById("display");
+      display.innerHTML = z;
+    </script>
+  </body>
+</html>
